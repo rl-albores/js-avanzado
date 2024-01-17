@@ -5,8 +5,7 @@
 
 export const generatorFunctionsComponent = (element) => {
   // console.log('generatorFunctionsComponent')
-<<<<<<< HEAD
-=======
+
   // const myGenerator = myFirstGeneratorFunction()
   // console.log(myGenerator.next())
   // console.log(myGenerator.next())
@@ -41,17 +40,12 @@ function* idGenerator() {
   while (true) {
     yield ++currentId
   }
->>>>>>> Update All
 }
 
 function* myFirstGeneratorFunction() {
   yield 'Primer valor'
-<<<<<<< HEAD
-  return 'Ya no hay valores'
-=======
   yield 'Segundo valor'
   yield 'Tercer valor'
   return 'Ya no hay valores'
   yield 'Tercer valor'
->>>>>>> Update All
 }
