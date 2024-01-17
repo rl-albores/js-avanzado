@@ -1,19 +1,10 @@
-<<<<<<< HEAD
-=======
 import { heroes } from '../data/heroes'
 
->>>>>>> Update All
 /**
  *
  * @param {HTMLDivElement} element
  */
 
-<<<<<<< HEAD
-export const asyncAwaitComponent = (element) => {
-  console.log('asyncAwaitComponent')
-}
-return
-=======
 export const asyncAwaitComponent = async (element) => {
   // console.log('asyncAwaitComponent')
   const id1 = '5d86371f233c9f2425f16916'
@@ -44,4 +35,3 @@ const findHero = async (id) => {
   if (!hero) throw `Hero no found`
   return hero
 }
->>>>>>> Update All
